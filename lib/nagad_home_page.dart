@@ -1,5 +1,7 @@
 import 'dart:async';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 class NagadHomeScreen extends StatefulWidget {
   const NagadHomeScreen({super.key});
@@ -90,14 +92,16 @@ class _NagadHomeScreenState extends State<NagadHomeScreen> {
                             margin: const EdgeInsets.only(left: 15),
                             child: Image.asset("images/nagad_logo.png",
                                 height: 20)),
-                        Container(
-                          margin: const EdgeInsets.only(left: 15),
-                          child: Text(
-                            textAlign: TextAlign.center,
-                            moneytext,
-                            style: const TextStyle(
-                              color: Colors.redAccent,
-                              fontSize: 20,
+                        Expanded(
+                          child: Container(
+                            margin: const EdgeInsets.only(left: 15),
+                            child: Text(
+                              textAlign: TextAlign.center,
+                              moneytext,
+                              style: const TextStyle(
+                                color: Colors.redAccent,
+                                fontSize: 15,
+                              ),
                             ),
                           ),
                         ),
@@ -129,7 +133,7 @@ class _NagadHomeScreenState extends State<NagadHomeScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Image.asset("images/nagad_logo.png", height: 80),
+                    Image.asset("images/nagad_logo.png", height: 50),
                     const Text("সেন্ড মানি"),
                   ],
                 ),
@@ -139,7 +143,7 @@ class _NagadHomeScreenState extends State<NagadHomeScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Image.asset("images/nagad_logo.png", height: 80),
+                    Image.asset("images/nagad_logo.png", height: 50),
                     const Text("ক্যাশ আউট"),
                   ],
                 ),
@@ -149,7 +153,7 @@ class _NagadHomeScreenState extends State<NagadHomeScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Image.asset("images/nagad_logo.png", height: 80),
+                    Image.asset("images/nagad_logo.png", height: 50),
                     const Text("মোবাইল রিচার্জ"),
                   ],
                 ),
@@ -159,7 +163,7 @@ class _NagadHomeScreenState extends State<NagadHomeScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Image.asset("images/nagad_logo.png", height: 80),
+                    Image.asset("images/nagad_logo.png", height: 50),
                     const Text("অ্যাড মানি "),
                   ],
                 ),
@@ -187,7 +191,7 @@ class _NagadHomeScreenState extends State<NagadHomeScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Image.asset("images/nagad_logo.png", height: 80),
+                    Image.asset("images/nagad_logo.png", height: 50),
                     const Text("মার্চেন্ট পে"),
                   ],
                 ),
@@ -197,7 +201,7 @@ class _NagadHomeScreenState extends State<NagadHomeScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Image.asset("images/nagad_logo.png", height: 80),
+                    Image.asset("images/nagad_logo.png", height: 50),
                     const Text("বিল পে"),
                   ],
                 ),
@@ -207,7 +211,7 @@ class _NagadHomeScreenState extends State<NagadHomeScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Image.asset("images/nagad_logo.png", height: 80),
+                    Image.asset("images/nagad_logo.png", height: 50),
                     const Text("ডোনেশন"),
                   ],
                 ),
@@ -217,7 +221,7 @@ class _NagadHomeScreenState extends State<NagadHomeScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Image.asset("images/nagad_logo.png", height: 80),
+                    Image.asset("images/nagad_logo.png", height: 50),
                     const Text("আয়কর"),
                   ],
                 ),
@@ -245,7 +249,7 @@ class _NagadHomeScreenState extends State<NagadHomeScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Image.asset("images/nagad_logo.png", height: 80),
+                    Image.asset("images/nagad_logo.png", height: 50),
                     const Text("নগদ খবর"),
                   ],
                 ),
@@ -255,7 +259,7 @@ class _NagadHomeScreenState extends State<NagadHomeScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Image.asset("images/nagad_logo.png", height: 80),
+                    Image.asset("images/nagad_logo.png", height: 50),
                     const Text("যোগাযোগ করুন"),
                   ],
                 ),
@@ -265,7 +269,7 @@ class _NagadHomeScreenState extends State<NagadHomeScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Image.asset("images/nagad_logo.png", height: 80),
+                    Image.asset("images/nagad_logo.png", height: 50),
                     const Text("লিমিট ও চার্জ"),
                   ],
                 ),
